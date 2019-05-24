@@ -1,0 +1,70 @@
+li{
+    float: left;
+    display: block;
+    margin-right: 40px;
+    font-size:50px;
+}
+
+html{
+    background-image: url(images/rdgdfh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    font-size:20px;
+    font-family:Arial;
+    
+}
+#f{
+    width: 704px;
+    height: 50px;
+    margin: 20px auto;
+}
+#f2{
+    width: 490px;
+    height:50px; 
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-left: 130px;
+    transition: transform .2s;
+}
+#f3{
+    width: 410px;
+    height:50px; 
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin: 50px auto;
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-left: 200px;
+    transition: transform .2s;
+}
+#f4{
+    width: 430px;
+    height: 50px; 
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin: 50px auto;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-left: 185px;
+    transition: transform .2s;
+}
+#f2:hover {
+    transform: scale(1.1);
+}
+#f3:hover {
+    transform: scale(1.1);
+}
+#f4:hover {
+    transform: scale(1.1);
+}
+a{
+    color: #000 !important;
+  text-decoration: none
+}
