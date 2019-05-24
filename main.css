@@ -1,0 +1,19 @@
+body {
+    font-size:50px;
+    font-family:Arial;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+
+a {  
+    color:#7a7a7a;
+    text-decoration:none;
+    color:#A9A9A9;
+}
+
+html{
+    background-image: url(images/765.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
