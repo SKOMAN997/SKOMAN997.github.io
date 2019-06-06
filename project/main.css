@@ -1,70 +1,96 @@
-li{
-    float: left;
-    display: block;
-    margin-right: 40px;
-    font-size:50px;
-}
-
 html{
     background-image: url(images/rdgdfh.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 body {
-    font-size:20px;
+    font-size:18px;
     font-family:Arial;
     
 }
 #f{
-    width: 704px;
+    width: 695px;
     height: 50px;
     margin: 20px auto;
 }
-#f2{
-    width: 490px;
-    height:50px; 
-    background-color: aliceblue;
-    border-radius: 100px;
-    margin: 50px auto;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    padding-top: 25px;
-    padding-left: 130px;
-    transition: transform .2s;
-}
-#f3{
-    width: 410px;
-    height:50px; 
-    background-color: aliceblue;
-    border-radius: 100px;
-    margin: 50px auto;
-    margin-top: 10px;
-    padding-top: 25px;
-    padding-left: 200px;
-    transition: transform .2s;
-}
-#f4{
-    width: 430px;
-    height: 50px; 
-    background-color: aliceblue;
-    border-radius: 100px;
-    margin: 50px auto;
-    margin-top: 300px;
-    margin-bottom: 0px;
-    padding-top: 25px;
-    padding-left: 185px;
-    transition: transform .2s;
-}
-#f2:hover {
-    transform: scale(1.1);
-}
-#f3:hover {
-    transform: scale(1.1);
-}
-#f4:hover {
-    transform: scale(1.1);
-}
+
+
 a{
     color: #000 !important;
-  text-decoration: none
+    text-decoration: none;
+}
+#inform{
+    text-align: center;
+    font-size:30px;
+    font-family:Arial;
+}
+#pls{
+    width: 630px;
+    height: 30px;
+    background-color: #36b44c;
+    border-radius: 100px;
+    margin: 270px auto;
+    margin-bottom: 0px;
+    padding-top: 11px;
+    padding-left: 35px;
+    transition: transform .2s;
+}
+#pls:hover {
+    transform: scale(1.1);
+}
+#pls2{
+    width: 450px;
+    height: 30px;
+    background-color: #f79421;
+    border-radius: 100px;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    padding-top: 11px;
+    padding-left: 215px;
+    transition: transform .2s;
+}
+#pls2:hover {
+    transform: scale(1.1);
+}
+#inform2{
+    width: 180px;
+    height: 34px;
+    margin: 15px auto;
+    font-size:28px;
+    font-family:Arial;
+}
+#inform3{
+    width: 268px;
+    height: 34px;
+    margin: 15px auto;
+    font-size:24px;
+    font-family:Arial;
+}
+#inform4{
+    width: 305px;
+    height: 34px;
+    margin: 15px auto;
+    font-size:24px;
+    font-family:Arial;
+}
+#inform5{
+    width: 293px;
+    height: 34px;
+    margin: 15px auto;
+    font-size:24px;
+    font-family:Arial;
+}
+#inform6{
+    width: 238px;
+    height: 34px;
+    margin: 15px auto;
+    font-size:28px;
+    font-family:Arial;
+}
+#inform7{
+    width: 286px;
+    height: 34px;
+    margin: 15px auto;
+    font-size:28px;
+    font-family:Arial;
 }
