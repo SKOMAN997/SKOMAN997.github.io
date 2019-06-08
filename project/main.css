@@ -101,8 +101,17 @@ a{
     html{
     background-image: url(images/rdgdfh.png);
     background-repeat: no-repeat;
-    background-size: 300%;
+    background-size: 500%;
     
 }
+
+#info{
+    font-size:38px;
+    font-family:Arial;
     
+}
+
+#pls{
+    margin-top: 850px;
+  
 }
