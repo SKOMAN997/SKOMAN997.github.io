@@ -1,7 +1,9 @@
 html{
     background-image: url(images/rdgdfh.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-position: top;
+    
 }
     
 #f{
@@ -104,7 +106,7 @@ a{
     html{
     background-image: url(images/rdgdfh.png);
     background-repeat: no-repeat;
-    background-size: 600%;
+    background-size: 300%;
     
 }
     #pls{
