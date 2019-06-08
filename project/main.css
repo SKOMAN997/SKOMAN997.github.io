@@ -6,138 +6,103 @@ html{
     
 }
     
-#f{
+#info{
     width: 695px;
-    height: 50px;
+    height: 340px;
     margin: 20px auto;
+    margin-bottom:0px;
     font-size:18px;
     font-family:Arial;
+    
 }
-
 
 a{
-    color: #000 !important;
+    color: #000;
     text-decoration: none;
 }
-#inform{
-    text-align: center;
-    font-size:30px;
-    font-family:Arial;
-}
+
 #pls{
-    width: 630px;
-    height: 30px;
+    width: 650px;
+    height: 40px;
     background-color: #36b44c;
     border-radius: 100px;
-    margin: 270px auto;
+    margin: 15px auto;
     margin-bottom: 0px;
-    padding-top: 11px;
-    padding-left: 35px;
     transition: transform .2s;
     font-size:18px;
     font-family:Arial;
+    overflow: hidden;
 }
+
 #pls:hover {
     transform: scale(1.1);
 }
+#pls_reborn{
+    width: 601px;
+    height: 20px;
+    margin-left: 40px;
+    margin:10px auto;
+    
+}
+
 #pls2{
-    width: 450px;
-    height: 30px;
+    width: 650px;
+    height: 40px;
+    background-color: #3670b3;
+    border-radius: 100px;
+    margin: 15px auto;
+    margin-bottom: 0px;
+    transition: transform .2s;
+    font-size:18px;
+    font-family:Arial;
+    overflow: hidden;
+}
+
+#pls2:hover {
+    transform: scale(1.1);
+}
+#pls_reborn2{
+    width: 149px;
+    height: 20px;
+    margin-left: 40px;
+    margin:10px auto;
+    
+}
+
+#pls3{
+    width: 650px;
+    height: 40px;
     background-color: #f79421;
     border-radius: 100px;
     margin: 15px auto;
     margin-bottom: 50px;
-    padding-top: 11px;
-    padding-left: 215px;
     transition: transform .2s;
     font-size:18px;
     font-family:Arial;
+    overflow: hidden;
 }
-#pls2:hover {
+#pls3:hover {
     transform: scale(1.1);
+    
 }
-#inform2{
-    width: 180px;
-    height: 34px;
-    margin: 15px auto;
-    font-size:28px;
-    font-family:Arial;
+#pls_reborn3{
+    width: 236px;
+    height: 20px;
+    margin-left: 40px;
+    margin:10px auto;
 }
-#inform3{
-    width: 270px;
-    height: 34px;
-    margin: 15px auto;
-    font-size:24px;
-    font-family:Arial;
-}
-#inform4{
-    width: 305px;
-    height: 34px;
-    margin: 15px auto;
-    font-size:24px;
-    font-family:Arial;
-}
-#inform5{
-    width: 293px;
-    height: 34px;
-    margin: 15px auto;
-    font-size:24px;
-    font-family:Arial;
-}
-#inform6{
-    width: 238px;
-    height: 34px;
-    margin: 15px auto;
-    font-size:28px;
-    font-family:Arial;
-}
-#inform7{
-    width: 290px;
-    height: 34px;
-    margin: 15px auto;
-    font-size:28px;
-    font-family:Arial;
-}
+
 @media (max-width:1000px){
     #f {
     font-size:38px;
     font-family:Arial;
-    }
+}
+    
     html{
     background-image: url(images/rdgdfh.png);
     background-repeat: no-repeat;
     background-size: 300%;
     
 }
-    #pls{
-    width: 820px;
-    height: 50px;
-    background-color: #36b44c;
-    border-radius: 100px;
-    margin: 1070px auto;
-    margin-bottom: 0px;
-    padding-top: 18px;
-    padding-left: 35px;
-    transition: transform .2s;
-    font-size:24px;
-    font-family:Arial;
-}
-#pls:hover {
-    transform: scale(1.1);
-}
-#pls2{
-    width: 590px;
-    height: 50px;
-    background-color: #f79421;
-    border-radius: 100px;
-    margin: 15px auto;
-    margin-bottom: 50px;
-    padding-top: 18px;
-    padding-left: 270px;
-    transition: transform .2s;
-    font-size:24px;
-    font-family:Arial;
-}
-#pls2:hover {
-    transform: scale(1.1);
+    
 }
