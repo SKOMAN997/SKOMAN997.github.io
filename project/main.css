@@ -19,7 +19,12 @@ html{
 a{
     color: #000;
     text-decoration: none;
+    width: 650px;
+    height: 40px;
+    display: block;
+    margin: 15px auto;
 }
+
 
 #pls{
     width: 650px;
