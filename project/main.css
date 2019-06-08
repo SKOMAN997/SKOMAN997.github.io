@@ -93,12 +93,8 @@ a{
 }
 
 @media (max-width:1000px){
-    #f {
-    font-size:38px;
-    font-family:Arial;
-}
     
-    html{
+html{
     background-image: url(images/rdgdfh.png);
     background-repeat: no-repeat;
     background-size: 500%;
