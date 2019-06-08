@@ -3,15 +3,13 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-body {
-    font-size:18px;
-    font-family:Arial;
     
-}
 #f{
     width: 695px;
     height: 50px;
     margin: 20px auto;
+    font-size:18px;
+    font-family:Arial;
 }
 
 
@@ -34,6 +32,8 @@ a{
     padding-top: 11px;
     padding-left: 35px;
     transition: transform .2s;
+    font-size:18px;
+    font-family:Arial;
 }
 #pls:hover {
     transform: scale(1.1);
@@ -48,6 +48,8 @@ a{
     padding-top: 11px;
     padding-left: 215px;
     transition: transform .2s;
+    font-size:18px;
+    font-family:Arial;
 }
 #pls2:hover {
     transform: scale(1.1);
@@ -93,4 +95,47 @@ a{
     margin: 15px auto;
     font-size:28px;
     font-family:Arial;
+}
+@media (max-width:1000px){
+    #f {
+    font-size:38px;
+    font-family:Arial;
+    }
+    html{
+    background-image: url(images/rdgdfh.png);
+    background-repeat: no-repeat;
+    background-size: 600%;
+    
+}
+    #pls{
+    width: 820px;
+    height: 50px;
+    background-color: #36b44c;
+    border-radius: 100px;
+    margin: 1070px auto;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    padding-left: 35px;
+    transition: transform .2s;
+    font-size:24px;
+    font-family:Arial;
+}
+#pls:hover {
+    transform: scale(1.1);
+}
+#pls2{
+    width: 590px;
+    height: 50px;
+    background-color: #f79421;
+    border-radius: 100px;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    padding-top: 18px;
+    padding-left: 270px;
+    transition: transform .2s;
+    font-size:24px;
+    font-family:Arial;
+}
+#pls2:hover {
+    transform: scale(1.1);
 }
