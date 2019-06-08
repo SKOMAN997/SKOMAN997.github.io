@@ -1,0 +1,128 @@
+html{
+    background-image: url(images/rdgdfh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    
+}
+    
+#info{
+    width: 695px;
+    height: 340px;
+    margin: 20px auto;
+    margin-bottom:0px;
+    font-size:18px;
+    font-family:Arial;
+    
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+#pls{
+    width: 650px;
+    height: 40px;
+    background-color: #36b44c;
+    border-radius: 100px;
+    margin: 15px auto;
+    margin-bottom: 0px;
+    transition: transform .2s;
+    font-size:18px;
+    font-family:Arial;
+    overflow: hidden;
+}
+
+#pls:hover {
+    transform: scale(1.1);
+}
+#pls_reborn{
+    width: 601px;
+    height: 20px;
+    margin-left: 40px;
+    margin:10px auto;
+    
+}
+
+#pls2{
+    width: 650px;
+    height: 40px;
+    background-color: #3670b3;
+    border-radius: 100px;
+    margin: 15px auto;
+    margin-bottom: 0px;
+    transition: transform .2s;
+    font-size:18px;
+    font-family:Arial;
+    overflow: hidden;
+}
+
+#pls2:hover {
+    transform: scale(1.1);
+}
+#pls_reborn2{
+    width: 149px;
+    height: 20px;
+    margin-left: 40px;
+    margin:10px auto;
+    
+}
+
+#pls3{
+    width: 650px;
+    height: 40px;
+    background-color: #f79421;
+    border-radius: 100px;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    transition: transform .2s;
+    font-size:18px;
+    font-family:Arial;
+    overflow: hidden;
+}
+#pls3:hover {
+    transform: scale(1.1);
+    
+}
+#pls_reborn3{
+    width: 236px;
+    height: 20px;
+    margin-left: 40px;
+    margin:10px auto;
+}
+
+@media (max-width:1000px){
+    
+html{
+    background-image: url(images/rdgdfh.png);
+    background-repeat: no-repeat;
+    background-size: 500%;
+    
+}
+
+#info{
+    font-size:38px;
+    font-family:Arial;
+    
+}
+
+#pls{
+    margin-top: 895px;
+  
+}
+
+#pls_reborn{
+    width: 610px;
+    
+}
+
+#pls_reborn2{
+    width: 153px;
+    
+}
+
+#pls_reborn3{
+    width: 240px;
+    
+}
