@@ -10,10 +10,75 @@ a {
     color:#7a7a7a;
     text-decoration:none;
     color:#A9A9A9;
+    display: block;
+    
 }
 
 html{
-    background-image: url(images/765.png); 
+    background-image: url(images/ser.png); 
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+#sas{
+    background-color: dimgray;
+    border-radius: 100px;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#sas2{
+    color: dimgray;
+    margin-bottom: 50px;
+}
+
+#a3{
+    border-radius: 100px;
+}
+
+#sasok{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+#sasok2{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+#a1{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 440px;
+}
+#a2{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 440px;
+}
+
+
+@media (max-width:1000px){
+    html{background-size: 600%;
+}
+
+body{
+    font-size:80px;    
+}
+    
 }
