@@ -1,7 +1,6 @@
 body {
     font-size:50px;
     font-family:Arial;
-    text-transform: uppercase;
     text-align:center;
     margin-top:50px;
 }
@@ -10,7 +9,7 @@ a {
     color:#7a7a7a;
     text-decoration:none;
     color:#A9A9A9;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -45,40 +44,14 @@ img{
     border-radius: 100px;
 }
 
-#sasok{
+#a1,#a2{
     width: 500px;
     height: 300px;
     border-radius: 50px;
 }
-
-#sasok2{
-    width: 500px;
-    height: 300px;
-    border-radius: 50px;
-}
-
-#a1{
-    width: 500px;
-    height: 300px;
-    border-radius: 50px;
-    float: left;
-    margin-left: 440px;
-}
-#a2{
-    width: 500px;
-    height: 300px;
-    border-radius: 50px;
-    float: right;
-    margin-right: 440px;
-}
-
 
 @media (max-width:1000px){
     html{background-size: 600%;
 }
-
-body{
-    font-size:80px;    
-}
-    
+  
 }
