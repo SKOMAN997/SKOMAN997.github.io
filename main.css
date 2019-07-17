@@ -9,7 +9,7 @@ a {
     color:#7a7a7a;
     text-decoration:none;
     color:#A9A9A9;
-    display: inline-block;
+    display: block;
     
 }
 
@@ -48,6 +48,19 @@ img{
     width: 500px;
     height: 300px;
     border-radius: 50px;
+}
+#a1{
+    float: left;
+    
+}
+
+#a2{
+    float: right;
+    
+}
+#banka{
+    width: 1024px;
+    margin: 0 auto;
 }
 
 @media (max-width:1000px){
